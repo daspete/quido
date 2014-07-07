@@ -64,8 +64,10 @@ function parsePlaceholder() {
 
 		htmlHeader=${htmlHeader/$match/$holderContent}
 		htmlFooter=${htmlFooter/$match/$holderContent}
-		htmlChooseForm=${htmlChooseForm/$match/$holderContent}
-		htmlDownloadFile=${htmlDownloadFile/$match/$holderContent}
+		htmlChooseForm=${htmlChooseForm//$match/$holderContent}
+		htmlDownloadFile=${htmlDownloadFile//$match/$holderContent}
+		htmlDownloadPlaylist=${htmlDownloadPlaylist//$match/$holderContent}
+
 
 	done
 }

@@ -1,11 +1,17 @@
-<div class="ui two column page grid">
+<div class="ui one column page grid">
+	<div class="row">
 	<div class="column">
-
+		<h3 class="ui red header">
+			<i class="youtube icon"></i>
+			<div class="content">
+				Youtube File Downloader
+			</div>
+		</h3>
 		<p>
 			Download a single track from youtube. You can input a direct URL from youtube, or you can feel lucky and type in anything you can think about. Who knows, what you'll get ;)<br /><br />
 		</p>
 
-		<form method="post">
+		<form method="post" class = "ui form">
 			<div class="ui fluid action input">
 				<input placeholder="put any youtube video-url inside..." type="text" name="downloadFile" value="${downloadFile}">
 				<div class="ui green button submit">DOWNLOAD MP3</div>
@@ -13,10 +19,17 @@
 		</form>
 
 	</div>
-
+</div>
+<div class="row">
 	<div class="column">
+		<h3 class="ui red header">
+			<i class="youtube icon"></i>
+			<div class="content">
+				Youtube Playlist Downloader
+			</div>
+		</h3>
 
-		<form method="post" class = "ui loading form">
+		<form method="post" class = "ui form">
 			<div class="ui fluid action input">
 				<input placeholder="put any youtube playlist-url inside..." type="text" name="downloadPlaylist" value="${downloadPlaylist}">
 				<div class="ui green button submit">DOWNLOAD PLAYLIST</div>
@@ -25,3 +38,6 @@
 		
 	</div>
 </div>
+
+</div>
+

@@ -15,7 +15,7 @@ fi
 if [ "${downloadPlaylist}" != "" ]; then
 	doDownload=1
 	echo ${htmlDownloadPlaylist}
-	. /tasks/downloadPlaylist.sh
+	. tasks/downloadPlaylist.sh
 fi
 
 if [ ${doDownload} == 0 ]; then
