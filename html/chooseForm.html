@@ -1,0 +1,27 @@
+<div class="ui two column page grid">
+	<div class="column">
+
+		<p>
+			Download a single track from youtube. You can input a direct URL from youtube, or you can feel lucky and type in anything you can think about. Who knows, what you'll get ;)<br /><br />
+		</p>
+
+		<form method="post">
+			<div class="ui fluid action input">
+				<input placeholder="put any youtube video-url inside..." type="text" name="downloadFile" value="${downloadFile}">
+				<div class="ui green button submit">DOWNLOAD MP3</div>
+			</div>
+		</form>
+
+	</div>
+
+	<div class="column">
+
+		<form method="post" class = "ui loading form">
+			<div class="ui fluid action input">
+				<input placeholder="put any youtube playlist-url inside..." type="text" name="downloadPlaylist" value="${downloadPlaylist}">
+				<div class="ui green button submit">DOWNLOAD PLAYLIST</div>
+			</div>
+		</form>
+		
+	</div>
+</div>
